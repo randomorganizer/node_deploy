@@ -1,0 +1,1 @@
+mongoimport -host timedb-shard-00-01-4ozhg.azure.mongodb.net:27017 --db games --type tsv --file ~/Desktop/games.tsv --authenticationDatabase admin --ssl --username app-user --password 5GWx8nEZ56Nv --collection game_list
